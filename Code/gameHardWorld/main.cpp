@@ -6,6 +6,6 @@
 
 int main()
 {
-	mainGame();
+    mainGame();
     return 0;
 }

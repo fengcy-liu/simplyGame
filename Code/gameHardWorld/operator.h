@@ -5,12 +5,12 @@
 
 typedef struct opStsTag
 {
-	COORD pos;
-	bool isPress;
-	bool isComfirm;
+    COORD pos;
+    bool isPress;
+    bool isComfirm;
 }opSts_t;
 
-void OP_startMenu(opSts_t *event);
+void OP_startMenu(opSts_t* event);
 
 #endif // !OPERATOR_H
 
