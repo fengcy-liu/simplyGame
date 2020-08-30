@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\console">
+      <UniqueIdentifier>{2082892f-95d9-4845-99f4-263ea0bc5703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\platform">
+      <UniqueIdentifier>{85e6b674-ada3-4988-94b6-a4ed1b1988c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\keyboard">
+      <UniqueIdentifier>{04908297-2167-4d61-b2da-18067d1c2039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\display">
+      <UniqueIdentifier>{7a2cdce6-246a-4130-88da-d67c6504b6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\game">
+      <UniqueIdentifier>{703c59ad-93c6-4145-babc-365c6474f32c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="console.cpp">
+      <Filter>源文件\console</Filter>
+    </ClCompile>
+    <ClCompile Include="operator.cpp">
+      <Filter>源文件\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="displayMenu.cpp">
+      <Filter>源文件\display</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gameHardWorld.cpp">
+      <Filter>源文件\game</Filter>
+    </ClCompile>
+    <ClCompile Include="gameHardWorld.h">
+      <Filter>源文件\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common_type.h">
+      <Filter>源文件\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="operator.h">
+      <Filter>源文件\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="displayMenu.h">
+      <Filter>源文件\display</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>源文件\console</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
