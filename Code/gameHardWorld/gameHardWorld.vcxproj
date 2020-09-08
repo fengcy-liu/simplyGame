@@ -18,6 +18,25 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common_type.h" />
+    <ClInclude Include="src\console.h" />
+    <ClInclude Include="src\displayBattle.h" />
+    <ClInclude Include="src\displayMenu.h" />
+    <ClInclude Include="src\gameHardWorld.h" />
+    <ClInclude Include="src\operator.h" />
+    <ClInclude Include="src\public_cfg.h" />
+    <ClInclude Include="src\role.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\console.cpp" />
+    <ClCompile Include="src\displayBattle.cpp" />
+    <ClCompile Include="src\displayMenu.cpp" />
+    <ClCompile Include="src\gameHardWorld.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\operator.cpp" />
+    <ClCompile Include="src\role.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{B7EE79F0-FC94-48F4-8910-79846BE2599E}</ProjectGuid>
@@ -72,6 +91,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -146,22 +166,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="displayMenu.cpp" />
-    <ClCompile Include="gameHardWorld.h" />
-    <ClCompile Include="gameHardWorld.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="console.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="operator.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="common_type.h" />
-    <ClInclude Include="console.h" />
-    <ClInclude Include="displayMenu.h" />
-    <ClInclude Include="operator.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

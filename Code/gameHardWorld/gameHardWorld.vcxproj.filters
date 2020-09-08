@@ -1,66 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="src">
+      <UniqueIdentifier>{c88410cb-a960-482d-9bf8-f9e38d404448}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="src\control">
+      <UniqueIdentifier>{bef23cef-ddb5-497c-a592-100f7ea72a66}</UniqueIdentifier>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{61f5fe8a-0cb7-4aae-adec-a78ef758d059}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\console">
-      <UniqueIdentifier>{2082892f-95d9-4845-99f4-263ea0bc5703}</UniqueIdentifier>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{0f8f7354-ea6d-4b0a-966e-2e066548b7b7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\platform">
-      <UniqueIdentifier>{85e6b674-ada3-4988-94b6-a4ed1b1988c7}</UniqueIdentifier>
+    <Filter Include="src\sundry">
+      <UniqueIdentifier>{6e2f4e85-a451-44c0-b951-9f54bc1b7ba4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\keyboard">
-      <UniqueIdentifier>{04908297-2167-4d61-b2da-18067d1c2039}</UniqueIdentifier>
+    <Filter Include="src\control\display">
+      <UniqueIdentifier>{ab6733c8-9047-4b1c-85c4-f45af8edb470}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\display">
-      <UniqueIdentifier>{7a2cdce6-246a-4130-88da-d67c6504b6c5}</UniqueIdentifier>
+    <Filter Include="src\control\console">
+      <UniqueIdentifier>{b6a49c44-493e-4035-af08-8b2e537d0dd1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\game">
-      <UniqueIdentifier>{703c59ad-93c6-4145-babc-365c6474f32c}</UniqueIdentifier>
+    <Filter Include="src\control\operate">
+      <UniqueIdentifier>{dc0b7e63-9de1-46ee-b6d8-3cdd29baf91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sundry\role">
+      <UniqueIdentifier>{24151953-f45f-4091-ad98-13520de4584b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\config">
+      <UniqueIdentifier>{f3bde5a6-a7f7-4c58-a07f-95d18fb804a5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="console.cpp">
-      <Filter>源文件\console</Filter>
-    </ClCompile>
-    <ClCompile Include="operator.cpp">
-      <Filter>源文件\keyboard</Filter>
-    </ClCompile>
-    <ClCompile Include="displayMenu.cpp">
-      <Filter>源文件\display</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="gameHardWorld.cpp">
-      <Filter>源文件\game</Filter>
-    </ClCompile>
-    <ClCompile Include="gameHardWorld.h">
-      <Filter>源文件\game</Filter>
-    </ClCompile>
+    <ClInclude Include="src\console.h">
+      <Filter>src\control\console</Filter>
+    </ClInclude>
+    <ClInclude Include="src\displayBattle.h">
+      <Filter>src\control\display</Filter>
+    </ClInclude>
+    <ClInclude Include="src\displayMenu.h">
+      <Filter>src\control\display</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_type.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameHardWorld.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\operator.h">
+      <Filter>src\control\operate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\role.h">
+      <Filter>src\sundry\role</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public_cfg.h">
+      <Filter>src\config</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common_type.h">
-      <Filter>源文件\platform</Filter>
-    </ClInclude>
-    <ClInclude Include="operator.h">
-      <Filter>源文件\keyboard</Filter>
-    </ClInclude>
-    <ClInclude Include="displayMenu.h">
-      <Filter>源文件\display</Filter>
-    </ClInclude>
-    <ClInclude Include="console.h">
-      <Filter>源文件\console</Filter>
-    </ClInclude>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\console.cpp">
+      <Filter>src\control\console</Filter>
+    </ClCompile>
+    <ClCompile Include="src\displayBattle.cpp">
+      <Filter>src\control\display</Filter>
+    </ClCompile>
+    <ClCompile Include="src\displayMenu.cpp">
+      <Filter>src\control\display</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameHardWorld.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operator.cpp">
+      <Filter>src\control\operate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\role.cpp">
+      <Filter>src\sundry\role</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
