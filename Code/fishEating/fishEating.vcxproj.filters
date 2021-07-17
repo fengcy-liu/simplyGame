@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{09646a03-70e7-4408-a233-09ae838dfa15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{fa386f31-a7fb-4ec0-8599-292b46e01ea6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\fishEating.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="source\1.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="source\2.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="source\music.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="source\background.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\enter.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food1bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food2bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food3bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food4.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food4bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food5.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_food5bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_player.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\f_playerbei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food1bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food2bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food3bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food4.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food4bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food5.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\food5bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\player.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\playerbei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\time.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\timebei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\zhadan1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="source\zhadan1bei.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
