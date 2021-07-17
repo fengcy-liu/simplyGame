@@ -31,6 +31,9 @@
     <Filter Include="src\config">
       <UniqueIdentifier>{f3bde5a6-a7f7-4c58-a07f-95d18fb804a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\sundry\prop">
+      <UniqueIdentifier>{1a6a89c3-3bd1-4b4f-a07a-5191aacd6139}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\console.h">
@@ -57,6 +60,9 @@
     <ClInclude Include="src\public_cfg.h">
       <Filter>src\config</Filter>
     </ClInclude>
+    <ClInclude Include="src\prop.h">
+      <Filter>src\sundry\prop</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -79,6 +85,12 @@
     </ClCompile>
     <ClCompile Include="src\role.cpp">
       <Filter>src\sundry\role</Filter>
+    </ClCompile>
+    <ClCompile Include="demo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prop.cpp">
+      <Filter>src\sundry\prop</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
